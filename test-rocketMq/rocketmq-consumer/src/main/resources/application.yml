@@ -1,0 +1,13 @@
+server:
+  port: 8182
+  servlet:
+    context-path: /rocketmq-consumer
+
+spring:
+  application:
+    name: rocketmq-consumer
+
+rocketmq:
+  nameServer: 39.106.148.147:9876
+#  producer:
+#    group: demo-producer-group

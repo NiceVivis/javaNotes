@@ -1,0 +1,10 @@
+apache:
+  rocketmq:
+    #消费者配置
+    consumer:
+      pushConsumer: myConsumer
+    #生产者的配置
+    producer:
+      producerGroup: myGroup
+    namesrvAddr: 127.0.0.1:9876
+

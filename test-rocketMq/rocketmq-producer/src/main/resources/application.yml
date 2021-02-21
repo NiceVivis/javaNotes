@@ -1,0 +1,13 @@
+server:
+  port: 8181
+  servlet:
+    context-path: /rocketmq-producer
+
+spring:
+  application:
+    name: rocketmq-producer
+
+rocketmq:
+  nameServer: 39.106.148.147:9876
+  producer:
+    group: demo-producer-group

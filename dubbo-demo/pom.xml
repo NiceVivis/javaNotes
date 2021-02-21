@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>javaNotes</artifactId>
+        <groupId>org.example</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>dubbo-demo</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>rmi-server</module>
+        <module>spi</module>
+        <module>example</module>
+        <module>member-client</module>
+        <module>rpc-demo</module>
+        <module>boot-server</module>
+        <module>boot-client</module>
+    </modules>
+
+
+</project>

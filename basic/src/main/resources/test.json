@@ -1,0 +1,102 @@
+{
+  "Home": {
+    "FloatTime": "2019-11-22,2019-12-11,2019-12-12,2019-12-13",
+    "FloatUrl": "/pages/activity/activityDetail/activityDetail?id=30",
+    "BannerBETime": "2019/11/22 00:00:00,2021/12/31 23:59:59",
+    "BannerTime": "2019/11/22 10:00:00",
+    "BannerPic1": "s60/s60-01.png",
+    "BannerPic2": "s60/s60-04.png",
+    "BannerPic21": "s90L/user_banner.jpg",
+    "BannerPic22": "s90L/user_banner.jpg",
+    "BannerPic31": "s60/s60-03.png",
+    "BannerPic32": "s60/s60-06.png"
+  },
+  "S60Special": {
+    "BannerTime": "2019/11/27 00:00:00",
+    "BannerPic1": "s60-video/bupeng.jpg",
+    "BannerUrl1": "/packageActivity/pages/s60/video/index?aId=996",
+    "BannerPic2": "s60-video/hanhan_vlog.jpg",
+    "BannerUrl2": "/packageActivity/pages/s60/video/index?aId=993"
+  },
+  "S90List": {
+    "DisplayTime": "2019/11/22 14:00:00"
+  },
+  "S60VideoIcon": [
+    {
+      "articleId": 1001,
+      "icon": "/images/s60/logo1.png"
+    },
+    {
+      "articleId": 1022,
+      "icon": "/images/s60/logo1022.jpg"
+    },
+    {
+      "articleId": 1024,
+      "icon": "/images/s60/logo1024.jpg"
+    },
+    {
+      "articleId": 993,
+      "icon": "/images/s60/993.png"
+    },
+    {
+      "articleId": 1045,
+      "icon": "/images/s60/logo1045.png"
+    },
+    {
+      "articleId": 1049,
+      "icon": "/images/s60/logo1049.png"
+    },
+    {
+      "articleId": 980,
+      "icon": "/images/s60/980.png"
+    },
+    {
+      "articleId": 993,
+      "icon": "/images/s60/993.png"
+    },
+    {
+      "articleId": 997,
+      "icon": "/images/s60/997.png"
+    },
+    {
+      "articleId": 998,
+      "icon": "/images/s60/998.png"
+    },
+    {
+      "articleId": 1048,
+      "icon": "/images/s60/1048.png"
+    },
+    {
+      "articleId": 978,
+      "icon": "/images/s60/978.png"
+    },
+    {
+      "articleId": 979,
+      "icon": "/images/s60/979.png"
+    },
+    {
+      "articleId": 996,
+      "icon": "/images/s60/996.png"
+    },
+    {
+      "articleId": 1046,
+      "icon": "/images/s60/1046.png"
+    },
+    {
+      "articleId": 1047,
+      "icon": "/images/s60/1047.png"
+    },
+    {
+      "articleId": 1043,
+      "icon": "/images/s60/1086.png"
+    },
+    {
+      "articleId": 1091,
+      "icon": "/images/s60/1091.png"
+    },
+    {
+      "articleId": 1092,
+      "icon": "/images/s60/1092.png"
+    }
+  ]
+}

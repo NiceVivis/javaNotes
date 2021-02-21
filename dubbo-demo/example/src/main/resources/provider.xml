@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+    <dubbo:application name="simple-app"/>
+    <dubbo:registry address="multicast://224.1.1.1:3333"/>
+    <!-- check 是否要检查注册中心可用 默认true-->
+    <dubbo:protocol name="dubbo" port="-1"/>
+    <dubbo:service interface="com.client.UserService" ref="userService"
+                   timeout="4000">
+        <dubbo:method name="getUser" timeout="2000"/>
+    </dubbo:service>
+
+    <!--模版,threads：线程数，threadpool：线程类型
+  timeout会在服务端配置，客户端使用
+  loadbalance 负载均衡的方式，roundrobin 轮询-->
+    <dubbo:provider threads="800" threadpool="fixed" group="hua" version="1.0.0"
+                    timeout="5000" retries="2" loadbalance="roundrobin"/>
+
+    <bean id="userService" class="com.dubbo.UserServiceImpl"></bean>
+</beans>
