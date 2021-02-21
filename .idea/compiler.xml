@@ -10,23 +10,23 @@
         <module name="arithmetic" />
         <module name="dubbo-user-client" />
         <module name="rpc-demo" />
-        <module name="example" />
-        <module name="springDemo" />
-        <module name="common" />
-        <module name="spi" />
         <module name="rmi-server" />
+        <module name="springDemo" />
+        <module name="user-client" />
+        <module name="spi" />
         <module name="boot-client" />
         <module name="payment-api" />
-        <module name="member-client" />
+        <module name="example" />
         <module name="rocketmq-consumer" />
         <module name="sso-client" />
-        <module name="basic" />
+        <module name="boot-server" />
         <module name="message_queue" />
         <module name="test-redis" />
         <module name="rocketmq-producer" />
         <module name="payment-service" />
-        <module name="boot-server" />
-        <module name="user-client" />
+        <module name="basic" />
+        <module name="common" />
+        <module name="member-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
